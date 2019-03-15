@@ -12,7 +12,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="/assets/galaxymeweb.png"
+                src="./assets/galaxymeweb.png"
                 alt="avatar"
                 style={{ height: "200px", marginRight: "10em" }}
               />
