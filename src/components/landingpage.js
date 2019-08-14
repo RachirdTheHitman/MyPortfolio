@@ -9,7 +9,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="/assets/selfweb.png"
+              src="assets/selfweb.png"
               alt="avatar"
               className="avatar-img"
               />
@@ -19,7 +19,7 @@ class Landing extends Component {
 
             <hr/>
 
-          <p>HTML/CSS | SemanticUI | JavaScript | React | NodeJS | Express | MongoDB</p>
+          <p>HTML/CSS | Asp.Net | JavaScript | ReactJs | AngularJs | NodeJS | Express | MongoDB | GraphQL | SemanticUI</p>
 
         <div className="social-links">
 

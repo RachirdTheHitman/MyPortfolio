@@ -3,16 +3,17 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
+import Footer from "./footer";
 
 class Resume extends Component {
   render() {
     return (
       <div>
-        <Grid>
+        <Grid className="resumeGrid">
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="./assets/galaxymeweb.png"
+                src="assets/galaxymeweb.png"
                 alt="avatar"
                 style={{ height: "200px", marginRight: "10em" }}
               />
@@ -44,6 +45,8 @@ class Resume extends Component {
             <p>mywebsite.com</p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
+
+
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
 
@@ -84,8 +87,11 @@ class Resume extends Component {
             <Skills skill="NodeJS" progress={50} />
             <Skills skill="React" progress={80} />
             <Skills skill="Photoshop" progress={80} />
+            <Skills skill="Asp.Net" progress={80} />
           </Cell>
         </Grid>
+
+        <Footer/>
       </div>
     );
   }
